@@ -81,6 +81,11 @@ namespace OpenKO_WEB.Controllers
                 TempData["Error"] = "Error : AccountID can not be null.";
                 return View(User);
             }
+            if (User.strAccountID.Length < 4)
+            {
+                TempData["Error"] = "Error : AccountID must have 5 digits or letters";
+                return View(User);
+            }
             if (User.strPasswd == null)
             {
                 TempData["Error"] = "Error : Password can not be null.";
