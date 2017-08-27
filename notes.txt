@@ -54,7 +54,9 @@ grep -r “keyword” <search-directory>
 - support all 1068 file formats
 	- requires testing of weapons and armor and stuff
 - binary client doesn's show the noah user pays when they purchase something
-
+-Issue in inventory with items name, not complet (not all items)
+-Issue in box "Information" When monster attack me, write Lost X exprience points.
+       -When i drop coins all is good, but example Wood staff message not working(not show)
 ===============================================================================
 QUEST_HELPER
 nIndex;              -> useful for SaveEvent()
